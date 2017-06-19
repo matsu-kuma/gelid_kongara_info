@@ -1,0 +1,25 @@
+h2 {
+background-color: #e5ffe5;
+/*color: #622e99;*/
+/*height: 1.5em;*/
+padding: 16px;
+}
+
+a:hover{
+  filter:alpha(opacity=80);
+  opacity:0.8;
+}
+
+a {
+color: #006600;
+}
+
+@media(max-width:320px){
+h2 {
+font-size: 1.3em;
+}
+
+a {
+font-size: 0.93em;
+}
+}

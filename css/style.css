@@ -1,0 +1,133 @@
+nav li {
+	width: 260px;
+	height: 64px;
+	background-color: #fff;
+}
+
+nav li:hover {
+	background-color: #764;
+}
+
+.contents header {
+	border-bottom: 1px solid;
+}
+
+.contents #logo{
+	background-image: url("../img/logo_b.png");
+	background-repeat: no-repeat;
+	-webkit-background-size: 80px;
+	background-size: 80px;
+	display: inline-block;
+	height: 48px;
+	border-right: 1px solid;
+	text-align: right;
+	
+}
+
+.contents #logo p{
+	display: none;
+}
+
+
+.contents #header-title{
+	height: 48px;
+	display: inline-block;
+	border-right: 0px solid;
+	text-align: center;
+}
+
+#header-title p{
+	font-size: 1.8em;
+	margin-top: -11px;
+}
+
+
+section#cont {
+	clear: both;
+	min-height: 84vh;
+}
+
+footer {
+	height: 5vh;
+	min-height: 48px;
+	border-top: 1px solid;
+	padding-top: -1px;
+	padding-top: 8px;
+	margin-bottom: 0px;
+}
+ 
+footer p{
+	font-size: 1.2em;
+	text-align: center;
+	margin-top: -8px;
+}
+
+li.top:hover,
+.top li.top{
+	background-color: #cfcfcf;
+}
+
+li.about:hover,
+.about li.about{
+	background-color: #ffe5e5;
+}
+
+li.information:hover,
+.information li.information{
+	background-color: #ffe5ff;
+}
+
+li.prof:hover,
+.prof li.prof{
+	background-color: #e5e5ff;
+}
+
+li.playlist:hover,
+.playlist li.playlist{
+	background-color: #e5ffff;
+}
+
+li.link:hover, 
+.link li.link{
+	background-color: #e5ffe5;
+}
+
+.top li.top:hover,
+.about li.about:hover,
+.information li.information:hover,
+.prof li.prof:hover,
+.playlist li.playlist:hover,
+.link li.link:hover{
+	text-decoration: none;
+	color: #000;
+}
+
+@media (min-width: 768px) {
+	.contents #logo p{
+		display: block;
+		margin-top: -0.5em;
+	}
+
+	footer {
+		clear: both;
+	}
+}
+
+@media (min-width: 992px) {
+	
+}
+
+@media (min-width: 1200px) {
+	.contents #logo {
+		padding-top: 24px;	
+	}
+
+	#header-title{
+		padding-top: 16px;
+	}
+
+	.contents #logo p{
+		display: inline;
+		margin-left: -0.3em;
+	}
+}

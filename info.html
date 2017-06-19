@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>大橋キャンパス演劇部--gekidS</title>
+		<link rel="stylesheet" type="text/css" href="css/html5reset.css" >
+		<link rel="stylesheet" type="text/css" href="css/kathamo.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+
+		<!-- bxsliderとjquery -->
+		<script src="jquery-3.2.1.min.js"></script>
+		<script src="jquery.bxslider.js"></script>
+		<link rel="stylesheet" type="text/css" href="jquery.bxslider.css">
+
+		<script>
+			$(document).ready(function(){
+			  $('.bxslider').bxSlider();
+			});
+		</script>
+
+	</head>
+	<body class="contents drawer drawer--right drawer--sidebar">
+		<button type="button" class="drawer-toggle drawer-hamburger">
+			<span class="sr-only">toggle navigation</span>
+			<span class="drawer-hamburger-icon"></span>
+		</button>
+			 
+		<nav class="drawer-nav">
+			<ul class="drawer-menu">
+		    	<!-- ドロワーメニューの中身 -->
+		    	<li class="drawer-menu-item top">Top</li>
+		    	<a href="about.html" class="animsition-link"><li class="drawer-menu-item about">About</li></a>
+		    	<a href="info.html" class="animsition-link"><li class="drawer-menu-item information">Information</li></a>
+		    	<a href="profile.html" class="animsition-link"><li class="drawer-menu-item prof">Profile</li></a>
+		    	<a href="playlist.html" class="animsition-link"><li class="drawer-menu-item playlist">Playlist</li></a>
+		    	<a href="link.html" class="animsition-link"><li class="drawer-menu-item link">Link</li></a>
+			</ul>
+		</nav>
+
+		<div class="wrap drawer-contents">
+			<header class="container">
+				<div id="logo" class="col-lg-3 col-md-3 col-sm-3 container">
+					<p>大橋キャンパス</p>
+					<p>演劇部</p>
+				</div>
+				<div id="header-title" class="col-lg-6 col-md-6 col-sm-6 container">
+					<p id="title-info">Information</p>
+				</div>
+			</header>
+
+
+			<div class="main">
+
+					<div id="top_image">
+						<img src="img/kongara_top.png">
+					</div>
+
+					<div class="bxslider">
+						<ul>
+							<li><img src="img/kongara_top.png" /></li>
+							<li><img src="img/kongara_top 2.png" /></li>
+							<li><img src="img/kongara_top 3.png" /></li>
+						</ul>
+					</div>
+
+				<div class="maintext">Coming soon!!</div>
+			</div>
+			
+			<footer class="container">
+				<p><small>c大橋キャンパス演劇部</small></p>
+			</footer>
+
+		</div>
+
+	</body>
+</html>
+

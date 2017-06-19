@@ -1,0 +1,90 @@
+
+
+#lean_overlay{
+  position: fixed; z-index:100; 
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  display: none;
+}
+.modalw{
+  background: none repeat scroll 0 0 #FEFFFF;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
+  display: none;
+  padding: 16px;
+  width: 300px;
+ }
+.sp-color{
+  color:#000;
+  background:#fff;
+  background:rgba(229,255,255,.75);
+}
+
+.sp-slide img{
+  display: block;
+  width: 300px;
+  height: 420px;
+  margin: auto;
+}
+
+.sp-next-arrow:after,
+.sp-next-arrow:before,
+.sp-previous-arrow:after,
+.sp-previous-arrow:before {
+    background-color: #7E8C8C;
+}
+
+.modalw p{
+  font-size: 0.8em;
+  margin-top: 4px;
+ }
+
+ .modalw p.plot{
+  font-size: 0.8em;
+ }
+
+ .modalw span{
+  font-weight: bold;
+ }
+ p.m-title {
+  border-bottom: 1px solid;
+  font-weight: bold;
+}
+
+.modal_close{ 
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: block; 
+  width: 14px;
+  height: 14px; 
+  background: url(../img/pl/);
+  z-index: 2;
+}
+
+section p{
+  margin: 8px;
+}
+
+div.modalw p.plot{
+  font-size: 0.7em;
+}
+
+@media (min-width: 1200px) {
+  section p {
+    text-align: center;
+  }
+
+  .modalw{
+    padding: 16px;
+    width: 480px;
+    height: 600px;
+    font-size: 1.2em;
+  }
+
+  .modalw p{
+    margin-top: 8px;
+  }
+}

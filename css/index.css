@@ -1,0 +1,106 @@
+.index header {
+	height: 100vh;
+
+}
+
+header div#logo div{
+	width: 300px;
+	margin-top: 25vh;
+}
+
+
+header div#logo h1{
+	margin-top: -0.2em;
+	font-size: 1.8em;
+	text-align: center;
+	/*display: table-cell;*/
+	color: #100101;
+}	
+
+.index section {
+	border-top: 1px solid;
+	border-bottom: 	1px solid;
+	height: 95vh;
+	padding-top: 16px;
+	padding-left: 8px;
+}
+
+.index section  p{
+	font-size: 0.8em;
+}
+
+.index h2{
+	margin-bottom: 8px;
+}
+
+#index_news, #index_twitter {
+	margin-top: 32px;
+}
+
+#index_news  p{
+	display: inline;
+}
+
+div p {
+	margin-left: 8px;
+}
+
+div.Social {
+	height: 5vh;
+	text-align: right;
+	padding-right: 16px;
+}
+
+footer {
+	min-height: 5vh;
+	border-top: 0 solid;
+}
+
+
+@media (min-width: 768px) {	
+	header div#logo div{
+		width: 480px;
+		margin:0 auto;
+		margin-top: 15vh;
+	}
+}
+
+@media (min-width: 992px) {
+	.index header {
+		float: left;
+		border-bottom: 1px solid;
+	}
+
+	.index section {
+		border-bottom: 0px solid;
+		border-top: 0px;
+		margin-left: 16px;
+	}
+
+	header div#logo h1{
+		font-size: 2.0em;
+		margin-left: -2em;
+	}	
+
+	footer {
+		border-top:1px solid;
+	}
+}
+
+@media (min-width: 1024px) {
+	.index header {
+		height: 95vh;
+		border-right: 1px solid;
+		border-bottom: 0px solid;
+	}
+
+	.index section {
+		height: 85vh;
+	}
+
+}
+
+@media (min-width: 1200px) {
+
+
+}

@@ -1,0 +1,151 @@
+
+/*プロフィールのテーマ*/
+.proftheme p{
+	margin: 15px 50px;
+	font-size: 20px;
+	border-bottom: 2px solid #ccc;
+}
+
+/*学年ごと*/
+.grade3{
+	margin-left: 15px;
+	margin-top: 25px;
+	clear:both;	
+}
+.grade2{
+	margin-left: 15px;
+	margin-top: 25px;
+	clear:both;	
+}
+.grade1{
+	margin-left: 15px;
+	margin-top: 25px;
+	clear:both;	
+}
+
+/*学年の文字*/
+div .grade3 h2{
+	padding: 5px 10px;
+	border-left: 7px solid #ccc;
+}
+
+div .grade2 h2{
+	padding: 5px 10px;
+	border-left: 7px solid #ccc;
+}
+
+
+div .grade1 h2{
+	padding: 5px 10px;
+	border-left: 7px solid #ccc;
+}
+
+
+/*プロフィール1人分*/
+.profile{
+	border: solid 2.5px #cccccc;
+	width: 48%;
+	height: 235px;
+	float: left;
+	margin: 7px 7px;
+	padding: 10px 5px;
+	background-color: #FFFFFF;
+}
+
+/*劇部ネーム*/
+.profile h3{
+	color: #4d4d4d;
+	background-color:  #e5e5ff;
+	padding: 5px 10px;
+}
+
+/*プロフィール画像*/
+img{
+	width: 28%;
+	height: auto;
+	float: left;
+	margin: 10px 10px;
+}
+
+/*プロフィールの文章*/
+div.proftext p{
+	width: 60%;
+	float: right;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	font-size: 15px;
+	overflow: auto;
+}
+
+
+
+/*クリアフィックス*/
+/***********************************************************************/
+/*画面が1241px以下になったら*/
+
+
+@media screen and (max-width: 1241px){
+	div.proftext p{
+		width: 65%;
+		padding-top: 5px;
+		padding-right: 10px;
+	}
+	img{
+		margin: 7px 7px;
+		width:25%;
+	}
+	
+	
+}
+/***********************************************************************/
+/*menuタブがたたまれたら、プロフィールを1列にする*/
+@media screen and (max-width: 1023px){
+
+	.proftheme p{
+		margin: 10px 20px;
+		font-size: 17px;
+	}
+
+	.grade3{
+		margin-left: 5px;
+		}
+	.grade2{
+		margin-left: 5px;
+	}
+		
+	.grade1{
+		margin-left: 5px;
+	}
+
+
+	.profile{
+		width: 80%;
+	}
+	img{
+		width: 25%;
+	}
+
+
+}
+/***********************************************************************/
+/*スマホサイズ*/
+@media screen and (max-width: 500px){
+	.proftheme p{
+		font-size: 15px;
+		margin: 10px 10px;
+	}
+
+	.profile{
+		width: 99%;
+	}
+	div.proftext p{
+		font-size: 13px;
+	}
+
+
+	}
+
+
+
+
